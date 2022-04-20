@@ -33,10 +33,10 @@
 
                             // LOOP IN []
 
-// const age=[23,19,45,24,78,34];
-// const name=["Ala","Ela","Ola","Nina","Maryla","Ania"]
+const age=[23,19,45,24,78,34];
+const name=["Ala","Ela","Ola","Nina","Maryla","Ania"]
 
-// console.log("LP.", "Wiek \t", "Imie");
-// for (let i = 1; i <= age.length; i++ ) {
-//     console.log(`${i} \t ${age[i-1]} \t ${name[i-1]}`);   
-// }
+console.log("LP.", "Wiek \t", "Imie");
+for (let i = 0; i < age.length; i++ ) {
+    console.log(`${i+1} \t ${age[i]} \t ${name[i]}`);   
+}
