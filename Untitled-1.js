@@ -10,15 +10,23 @@
 
                             // WHILE //
 
-let money = window.prompt("Podaj ile masz pieniędzy");
-let cena = window.prompt("Podaj cenę piwka : ");
-// let money=50;
-
-// let cena = 4;
+// let money = window.prompt("Podaj ile masz pieniędzy");
+// let cena = window.prompt("Podaj cenę piwka : ");
 // console.log(money);4
-while (money >= cena) {
-    console.log("Masz " + money + " zł. " );
-    console.log("Możesz kupić " + parseInt(money/cena) + " piwek")
+// while (money >= cena) {
+//     console.log("Masz " + money + " zł. " );
+//     console.log("Możesz kupić " + parseInt(money/cena) + " piwek");
     
-    money -= cena;
-};
+//     money -= cena;
+// };
+
+
+                            // LOOP IN LOOP
+
+for (let i = 1; i < 6; i++ ) {
+    console.log(`------------------ mnożenie przez liczbę ${i} ----------------------------`);
+    for (let j=1; j < 11; j++) {
+        console.log(` zmienna i czyli ${i} pomnożona przez zmienną j czyli ${j} da wynik ${i * j}`);
+        
+    }
+}
